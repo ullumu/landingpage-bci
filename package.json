@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "deploy": "gh-pages -d out --dotfiles",
+    "lint": "eslint",
+    "export": "next export"
+
   },
   "dependencies": {
     "next": "16.2.9",
