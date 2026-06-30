@@ -2,7 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  // basePath: "", // ganti dengan /nama-repo jika subdirectory
+  // Jika di-deploy ke GitHub Pages di subpath /<repo>, ganti nilai di bawah sesuai nama repo
+  basePath: "/landingpage-bci",
+  assetPrefix: "/landingpage-bci",
   trailingSlash: true,
   images: { unoptimized: true },
 };
