@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import React, { useState } from 'react';
-import { Transition } from '@headlessui/react';
-import { HiOutlineXMark, HiBars3 } from 'react-icons/hi2';
-import Image from 'next/image';
+import Link from "next/link";
+import React, { useState } from "react";
+import { Transition } from "@headlessui/react";
+import { HiOutlineXMark, HiBars3 } from "react-icons/hi2";
+import Image from "next/image";
 
-import Container from './Container';
-import { siteDetails } from '@/data/siteDetails';
-import { menuItems } from '@/data/menuItems';
+import Container from "./Container";
+import { siteDetails } from "@/data/siteDetails";
+import { menuItems } from "@/data/menuItems";
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ const Header: React.FC = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src={`${process.env.BASE_PATH || ''}/images/logo2.png`}
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/logo2.png`}
               alt={siteDetails.siteName}
               width={100}
               height={100}

@@ -10,6 +10,8 @@ permissions:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_BASE_PATH: /landingpage-bci
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
