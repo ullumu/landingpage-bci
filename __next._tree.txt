@@ -1,8 +1,8 @@
 :HL["/landingpage-bci/_next/static/chunks/03vszgx5673ae.css","style"]
 :HL["/landingpage-bci/_next/static/media/47df9ba1c7236d3b-s.p.137759vg1sbmi.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/landingpage-bci/_next/static/media/a343f882a40d2cc9-s.p.1sj6eobyi31rd.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/images/wa.png","image"]
-:HL["/images/logo-odoo.svg","image"]
-:HL["/images/logo-myob.png","image"]
-:HL["/images/logo-xero.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"8nBPkx4cx5knYGMdyc_ZO"}
+:HL["/landingpage-bci/images/wa.png","image"]
+:HL["/landingpage-bci/images/logo-odoo.svg","image"]
+:HL["/landingpage-bci/images/logo-myob.png","image"]
+:HL["/landingpage-bci/images/logo-xero.svg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"B8ED26cfSNL69D4fC8eFK"}
